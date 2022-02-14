@@ -1,0 +1,15 @@
+.footer1{
+    background-color:#5041BB;
+    color: white;
+
+}
+
+.footer{
+    display:flex;
+    justify-content:space-between;
+    padding: 40px 26px;
+    
+}
+.socials a{
+    padding: 0 12px;
+}
