@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Logo from './Images/Logo_TelEmpathy.png'
-
+import {BrowserRouter,Routes,Route,Link} from 'react-router-dom'
 const Navbar = () => {
     // const[show, setShow]=useState(false);
   return (
@@ -8,17 +8,17 @@ const Navbar = () => {
 
 <nav className="navbar navbar-expand-lg navbar-light bg-light pl-3 pr-3">
   <div className="container-fluid justify-space-between">
-    <a className="navbar-brand" href="#"><img src={Logo} alt="" style={{height:"54px"}}/></a>
+    <Link to="/" className="navbar-brand" href="#"><img src={Logo} alt="" style={{height:"54px"}}/></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse  justify-content-end" id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0  mr-auto">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">HomePage</a>
+          <Link to="/" className="nav-link active" aria-current="page" href="#">HomePage</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Contact Us</a>
+          <Link to="/contact" className="nav-link" href="#">Contact Us</Link>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Login</a>
