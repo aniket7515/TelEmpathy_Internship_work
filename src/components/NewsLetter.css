@@ -1,0 +1,85 @@
+.newsLetter{
+    text-align: center;
+    padding: 102px ;
+    background-color:#5041bb ;
+    /* margin-top:50px; */
+}
+.heading h1{
+    font-size:4rem;
+    color: #fff;
+    font-weight: 800;
+}
+/* .heading{
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    margin: auto !important;
+} */
+.heading p{
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    margin: 0 auto;
+}
+.sub p{
+    color: #fff;
+    font-size:10px;
+    text-align: center;
+    /* margin: 0 28rem; */
+
+    
+    /* display: flex; */
+}
+.input{
+    padding: 14px 102px;
+    border-radius: 3px;
+    border: 1.5px solid white;
+    background-color:#8277cd;
+    color: #fff;
+
+}
+.sub{
+    margin-top: 40px;
+}
+.sub button{
+    padding: 14px 42px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: none;
+    font-size: 12px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1;
+    /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color:white;
+  }
+
+
+@media only screen and (min-width: 500px){
+    .heading{
+        text-align: center;
+        justify-content: center;
+
+    }
+    .heading h1{
+        font-size:3rem;
+    }
+    .heading p{
+        width: 75%;
+        text-align:center;
+    }
+    .newsletter{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+}
