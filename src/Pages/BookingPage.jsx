@@ -15,6 +15,13 @@ const BookingPage = () => {
                 </div>
             </div>
         </div>
+
+        <div className="psyhead mt-5 text-center">
+            <h2 style={{fontWeight: 'bold'}}>List of our Psychologist</h2>
+            <hr  style={{width: '10%',margin:"auto",height: '3px'}} />
+        </div>
+
+
     </div>
   )
 }

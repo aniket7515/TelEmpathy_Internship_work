@@ -33,7 +33,7 @@ const Header = () => {
                   style={{ width: "100%", display: "flex" }}
                 >
                   <Link to="/booking" href=""><button
-                    className="input-group-button px-2 mx-0 "
+                    className="input-group-button px-2 py-2 mx-0 "
                     style={{ backgroundColor: "#5041BB", color: "white" }}
                   >
                     Get Started

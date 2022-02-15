@@ -12,10 +12,14 @@ const NewsLetter = () => {
         <div className="sub">
             
             <p>*Enter your Email</p>
+            <form action="">
             <input type="email" className="input" placeholder="your@email.com"/>
             
            
             <button>Subscribe <i class="bi bi-arrow-right" style={{fontSize:"16px"}}/></button>
+
+            </form>
+            
 
         </div>
     

@@ -8,11 +8,12 @@ const LoginForm = () => {
             <div className="login-box">
                 <div className="login-content">
                     <h1>Login</h1>
-                    <div className="input">
+                    <form action="#">
+                    <div className="input py-2">
                        {/* <i className="fa fa-user icon"></i> */}
                        <input className="input-field" type="text" placeholder="Email" name="email"/>
                     </div>
-                    <div className="input">
+                    <div className="input py-2">
                         {/* <i className="fa fa-key icon"></i> */}
                         <input className="input-field" type="password" placeholder="Password" name="psw"/>
                     </div>
@@ -29,6 +30,9 @@ const LoginForm = () => {
                             <p>Don't have an account yet? <span>Register here</span> </p>
                         </div>
                     </div>
+
+                    </form>
+                    
                     <p className="my-3" style={{color: "#321FDB"}}>Forgot yor Password?</p>
                 </div>
             </div>
