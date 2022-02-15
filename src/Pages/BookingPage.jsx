@@ -1,4 +1,5 @@
 import React from 'react'
+import BookingFoot from '../components/BookingFoot'
 import BookingNav from '../components/BookingNav'
 import logo from '../components/Images/Logo_TelEmpathy.png'
 
@@ -20,6 +21,10 @@ const BookingPage = () => {
             <h2 style={{fontWeight: 'bold'}}>List of our Psychologist</h2>
             <hr  style={{width: '10%',margin:"auto",height: '3px'}} />
         </div>
+
+
+
+        <BookingFoot/>
 
 
     </div>
