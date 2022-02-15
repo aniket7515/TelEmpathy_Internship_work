@@ -10,9 +10,9 @@ const Footer = () => {
 
             </div>
             <div className="socials">
-                <a href="">Facebook</a>
-                <a href="">Insta</a>
-                <a href="">Linkedin</a>
+                <a href=""><i style={{color: 'white',fontSize:"22px"}} class="bi bi-facebook"></i></a>
+                <a href=""><i style={{color: 'white',fontSize:"22px"}} class="bi bi-instagram"></i></a>
+                <a href=""><i style={{color: 'white',fontSize:"22px"}} class="bi bi-linkedin"></i></a>
             </div>
         </div>
         <div className="unicorn">

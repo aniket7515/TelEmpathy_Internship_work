@@ -6,13 +6,14 @@ import Accordion from './Accordion'
 
 const Faq = () => {
   return (
-    <div className="faq">
-        <h1>Some FAQs</h1>
+    <div className="faq mt-3 mb-3" style={{paddingBottom:"70px"}}>
+        <h1 className="text-center pt-3" style={{fontSize: '32px',fontWeight: 'bold'}}>Some FAQs</h1>
+        <p className="text-center pb-3"style={{fontSize: '16px'}}>Get to Know more About us</p>
         <div className="row">
-            <div className="col-md-6 col-12 left">
+            <div className="col-md-6 col-12 left text-center">
             <Accordion/>
             <div>
-                <span> <span> NEED HELP? </span>Contact us</span>
+                <span className="p-2" style={{backgroundColor:"#DFEAFE",borderRadius:"20px",color:"#4D61FC"}}> <span className="p-1 mx-2" style={{backgroundColor:"#6D61FC",borderRadius:"20px",color:"#fff",fontSize:"12px"}}> NEED HELP? </span>Contact us<i class="bi bi-arrow-right p-2" style={{fontSize:"22px"}}/></span>
             </div>
 
             </div>

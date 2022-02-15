@@ -22,7 +22,15 @@ const Accordion = () => {
   <input type="checkbox" id="faq-3"/>
   <h1><label for="faq-3">When to seek Talk Therapy?</label></h1>
   <div className="p">
-    <p>I was inpired by an article on css-tricks. <a href="https://css-tricks.com/the-checkbox-hack/">link to article</a>
+    <p>I was inpired by  
+    </p>
+  </div>
+</div>
+<div className="c">
+  <input type="checkbox" id="faq-3"/>
+  <h1><label for="faq-3">When to seek Talk Therapy?</label></h1>
+  <div className="p">
+    <p>I was inpired by  
     </p>
   </div>
 </div>
