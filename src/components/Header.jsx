@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import Img from "./Images/happy.png";
-
+import {BrowserRouter,Routes,Route,Link} from 'react-router-dom'
 const Header = () => {
   return (
     <div>
@@ -38,12 +38,13 @@ const Header = () => {
                   >
                     Get Started
                   </button>
-                  <button
+                  <Link to="/howtouse" href=""><button
                     className="input-group-button p-2 mx-2"
                     style={{ color: "#5041BB", FontWeight: "bold" }}
                   >
                     How to Use?
-                  </button>
+                  </button></Link>
+                  
                 </div>
               
 

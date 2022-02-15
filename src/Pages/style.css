@@ -1,0 +1,14 @@
+/* How to use page styling    */
+
+/* .img-container{
+    height: 130vh;
+    /* background-image:url('../components/Images/tinstr-\(1\).png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    width: 100%; */
+
+/* }  */
+.img-container img{
+    width: 100%;
+
+}
