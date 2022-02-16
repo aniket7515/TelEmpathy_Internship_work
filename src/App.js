@@ -6,6 +6,7 @@ import ContactPage from './Pages/ContactPage';
 import LoginPage from './Pages/LoginPage';
 import HowToUsePage from './Pages/HowToUsePage';
 import BookingPage from './Pages/BookingPage';
+import Inquirypage from './Pages/Inquirypage';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
            <Route path="/login" exact  element={<LoginPage/>}/>
            <Route path="/howtouse" exact  element={<HowToUsePage/>}/>
            <Route path="/booking" exact  element={<BookingPage/>}/>
+           <Route path="/inquiry-page" exact  element={<Inquirypage/>}/>
      
          </Routes>
       

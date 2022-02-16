@@ -12,7 +12,7 @@ const NewsLetter = () => {
         <div className="sub">
             
             <p>*Enter your Email</p>
-            <form action="">
+            <form action="#">
             <input type="email" className="input" placeholder="your@email.com"/>
             
            
