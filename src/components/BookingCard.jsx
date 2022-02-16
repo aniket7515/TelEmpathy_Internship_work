@@ -4,13 +4,13 @@ import './BookingCard.css'
 const BookingCard = ({image,name,price,Designation,Qualification,Age,Gender,Experience,KnownLanguage,SessionDuration,MediumOfTherapy}) => {
   return (
     <div>
-        <div className="card">
+        <div className="card1">
             <div className="img">
                 <img src={image} alt="" />
             </div>
             <div className="name mb-4">
                 <h4>{name}</h4>
-                <p>{price}</p>
+                <p style={{width:"160px"}}>{price}</p>
             </div>
             <div className="info">
                 <p> <strong>Designation:</strong>  {Designation}</p>

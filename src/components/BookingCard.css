@@ -1,18 +1,21 @@
-.card .img img{
+.card1 .img img{
     width: 325px;
     border-radius:50% 50%;
 
 }
-.card{
-    border: 1px solid black;
+.card1{
+    /* border: 1px solid black; */
     width: 360px;
     
 }
-.card .name{
+.card1 .name{
     display: flex;
     justify-content: space-between;
 }
-.card .info{
+/* card1 .name p{
+    width: 160px;
+} */
+.card1 .info{
     color:#5E5E5E ;
 }
 .info p{
