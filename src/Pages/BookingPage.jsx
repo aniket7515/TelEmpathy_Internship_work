@@ -207,6 +207,12 @@ const BookingPage = () => {
 
       </div>
 
+      <div className="footnote  text-center" style={{ marginTop:"150px",marginBottom:"150px",fontSize:"12px"}}>
+          <div className="line ">
+              <p>Add a footnote if this applies to your business</p>
+          </div>
+      </div>
+
      
       <BookingFoot />
     </div>
