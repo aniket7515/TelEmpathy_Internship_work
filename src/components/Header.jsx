@@ -4,7 +4,7 @@ import Img from "./Images/happy.png";
 import {BrowserRouter,Routes,Route,Link} from 'react-router-dom'
 const Header = () => {
   return (
-    <div>
+    <div >
       <header>
         {/* container main-hero-container */}
         <section className="header my-3">
@@ -22,36 +22,31 @@ const Header = () => {
                 </p>
                 <h3>Book a Session with an Online Psychologist</h3>
 
-                
-
-                
-               
-              </div>
-              <div className="input-group mt-3">
-                <div
+                {/* <div className="input-group mt-3"> */}
+                {/* <div
                   className="inputbtn"
                   style={{ width: "100%", display: "flex" }}
-                >
+                > */}
                   <Link to="/booking" href=""><button
-                    className="input-group-button px-2 py-2 mx-0 "
-                    style={{ backgroundColor: "#5041BB", color: "white" }}
+                    className="input-group-button px-2 py-2 mx-0 mt-4 "
+                    style={{ backgroundColor: "#5041BB", color: "white",border:"2px solid #5041BB",borderRadius:"4px" }}
                   >
                     Get Started
                   </button></Link>
                   
                   <Link to="/howtouse" href=""><button
                     className="input-group-button p-2 mx-2"
-                    style={{ color: "#5041BB", FontWeight: "bold" }}
+                    style={{ color: "#5041BB", FontWeight: "bold",border:"2px solid #5041BB" ,borderRadius:"4px" }}
                   >
                     How to Use?
                   </button></Link>
                   
-                </div>
-              
-
-
-              <span
-                  className="mt-3 mb-5 mx-4 p-1 "
+                {/* </div> */}
+                {/* <div > */}
+                <br />
+                <br />
+                <span
+                  className="mt-3 mb-5  p-1 "
                   style={{ backgroundColor: "#DFEAFE", borderRadius: "15px" }}
                 >
                   <span
@@ -69,6 +64,20 @@ const Header = () => {
                     for getting started<i class="bi bi-arrow-right " style={{fontSize:"16px"}}/>
                   </span>
                 </span>
+
+                {/* </div> */}
+               
+
+                
+
+                
+               
+              {/* </div> */}
+              
+              
+
+
+              
                 
 
                

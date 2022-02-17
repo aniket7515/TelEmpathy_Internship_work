@@ -15,10 +15,10 @@ const Footer = () => {
                 <a href=""><i style={{color: 'white',fontSize:"22px"}} class="bi bi-linkedin"></i></a>
             </div>
         </div>
-        <div className="unicorn">
+        {/* <div className="unicorn">
             <span>Runs on Unicorn Platform</span>
 
-        </div>
+        </div> */}
     </div>
   )
 }
