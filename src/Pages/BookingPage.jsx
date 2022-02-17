@@ -8,6 +8,11 @@ import vimarsha from '../components/Images/vimarsha.webp'
 import ebenezar from "../components/Images/ebenezar.jfif"
 import shika from "../components/Images/shika.jfif"
 import tejeshwar from "../components/Images/tejeshwar.jfif"
+import jagriti from "../components/Images/jagriti.jfif"
+import vishnuvardhan from "../components/Images/vishnuvardhan.jfif"
+import swapna from "../components/Images/swapna.jfif"
+import shaila from "../components/Images/shaila.jfif"
+import shreejith from "../components/Images/shreejith.jfif"
 
 
 const BookingPage = () => {
@@ -116,16 +121,16 @@ const BookingPage = () => {
         </div>
         <div className="col-md-4  col-xs-12">
           <BookingCard
-            image={urveez}
-            name="Urveez Kakalia"
-            Qualification="MA Counselling"
-            price="INR1000/Session"
-            Designation="Counselling Psychologist"
-            Age="25"
+            image={jagriti}
+            name="Jagriti Roy"
+            Qualification=" M.A in Clinical Psychology, Certificate in Happiness Coaching "
+            price="NR 500 / Session (First Session Free)"
+            Designation="Counselling Psychologist and Happiness Coach"
+            Age="26"
             Gender="Female"
-            Experience="Femal4 years"
-            KnownLanguage="English"
-            SessionDuration="45 Minutes"
+            Experience="1 year"
+            KnownLanguage="English, Hindi, Bengali"
+            SessionDuration="60 Minutes"
             MediumOfTherapy="Video"
           />
          
@@ -136,47 +141,47 @@ const BookingPage = () => {
       <div className="row justify-content-center mt-5">
         <div className="col-md-4  col-xs-12 ">
           <BookingCard
-            image={urveez}
-            name="Urveez Kakalia"
-            Qualification="MA Counselling"
-            price="INR1000/Session"
-            Designation="Counselling Psychologist"
+            image={vishnuvardhan}
+            name="M Vishnuvardhan Reddy"
+            Qualification="MSc in Psychology, M.PHIL in Psychology"
+            price="INR 0 /Session (Conditional)"
+            Designation="Counselor"
             Age="25"
-            Gender="Female"
-            Experience="Femal4 years"
-            KnownLanguage="English"
-            SessionDuration="45 Minutes"
-            MediumOfTherapy="Video"
+            Gender="Male"
+            Experience="13 years"
+            KnownLanguage="English, Telugu, Hindi"
+            SessionDuration="60 Minutes"
+            MediumOfTherapy="Video,Audio"
           />
         </div>
         <div className="col-md-4 col-xs-12">
           <BookingCard
-            image={urveez}
-            name="Urveez Kakalia"
-            Qualification="MA Counselling"
-            price="INR1000/Session"
+            image={swapna}
+            name="Swapna Sanghishetty"
+            Qualification="MA Psychology"
+            price="INR 500 /Session"
             Designation="Counselling Psychologist"
-            Age="25"
+            Age="38"
             Gender="Female"
-            Experience="Femal4 years"
-            KnownLanguage="English"
-            SessionDuration="45 Minutes"
+            Experience="8 years"
+            KnownLanguage="English, Hindi, Telugu"
+            SessionDuration="50 Minutes"
             MediumOfTherapy="Video"
           />
         </div>
         <div className="col-md-4  col-xs-12">
           <BookingCard
-            image={urveez}
-            name="Urveez Kakalia"
-            Qualification="MA Counselling"
-            price="INR1000/Session"
-            Designation="Counselling Psychologist"
-            Age="25"
+            image={shaila}
+            name="Shaila Rao"
+            Qualification=" MA Psychology, PGD Counseling skills, MBA  "
+            price="INR 1000 / Session (Free 15-min Session)"
+            Designation=" Counselor"
+            Age="50"
             Gender="Female"
-            Experience="Femal4 years"
-            KnownLanguage="English"
-            SessionDuration="45 Minutes"
-            MediumOfTherapy="Video"
+            Experience="6 years"
+            KnownLanguage="English,Hindi"
+            SessionDuration="50 Minutes"
+            MediumOfTherapy="Video,Audio"
           />
          
          
@@ -186,17 +191,17 @@ const BookingPage = () => {
       <div className="row justify-content-center mt-5">
         <div className="col-md-4  col-xs-12 ">
           <BookingCard
-            image={urveez}
+            image={shreejith}
             name="Urveez Kakalia"
-            Qualification="MA Counselling"
-            price="INR1000/Session"
+            Qualification="MSc, MPhil, Ph.D., MBA "
+            price="INR500/Session"
             Designation="Counselling Psychologist"
-            Age="25"
-            Gender="Female"
-            Experience="Femal4 years"
-            KnownLanguage="English"
-            SessionDuration="45 Minutes"
-            MediumOfTherapy="Video"
+            Age="33"
+            Gender="Male"
+            Experience="6 years"
+            KnownLanguage="Hindi,English"
+            SessionDuration="60 Minutes"
+            MediumOfTherapy="Video,Audio"
           />
         </div>
         
