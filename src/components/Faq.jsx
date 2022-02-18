@@ -1,6 +1,6 @@
 import React from 'react'
 import Accordion from './Accordion'
-
+import ReactPlayer from 'react-player'
 
 
 
@@ -19,7 +19,8 @@ const Faq = () => {
             </div>
             
             <div className="col-md-6 col-12 right">
-            Youtube Video
+            
+            <ReactPlayer width="98%" height="360px" controls url="https://www.youtube.com/watch?v=dAWL3zHTsM0&t=1s"/>
 
             </div>
             
