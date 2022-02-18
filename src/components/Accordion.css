@@ -67,7 +67,11 @@ div.p p {
   margin-right:10px;
 }
 .accordion input:checked ~ h1 ~ div.p{
-  max-height:100px;
+  max-height:600px;
+  border-top: none;
+    border-left: 2px solid #5041BB;
+    border-right: 2px solid #5041BB;
+    border-bottom: 2px solid #5041BB;
 }
 a{
   color:steelblue;
