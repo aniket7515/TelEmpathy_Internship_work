@@ -2,6 +2,10 @@
 .header-right-side img{
     max-height: 100px;
 }
+/* .input-group-button .btn2 button{
+    margin-left:1rem !important;
+
+} */
 /* .mt-3{
     margin-top:140px !important;
 } */
@@ -21,7 +25,7 @@
     }
     .header-left-side h1{
         /* font-weight: normal !important; */
-        font-size: 54px !important;
+        font-size: 48px !important;
     }
     .header-left-side{
         justify-content: left;
@@ -31,6 +35,10 @@
         
         
     }
+    .header-left-side .btn2{
+        margin-left:12px;
+    }
+    
 
 }
 @media only screen  and (min-width:500px) {
@@ -38,6 +46,7 @@
         margin-left:2rem;
         padding-right: 2rem;
     }
+    
 
     
 }
@@ -50,8 +59,9 @@
 }
 
 @media only screen and (max-width:500px){
-    .display-2 h1{
+    .header-left-side h1{
         margin-top:112px;
+        font-size: 32px !important;
     }
     .input-group-button{
         width:100%;
@@ -61,7 +71,9 @@
 
     }
     .header-left-side{
-        text-align:center;
+        text-align:left;
+        /* margin-right: 12px;
+        margin-left: 12px; */
 
     }
     .input-group{

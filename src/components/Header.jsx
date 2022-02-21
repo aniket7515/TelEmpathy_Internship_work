@@ -7,15 +7,15 @@ const Header = () => {
     <div >
       <header>
         {/* container main-hero-container */}
-        <section className="header my-3">
+        <section className="header container my-3">
           <div className="row">
             <div className="col-12 col-lg-6 header-left-side d-flex   justify-content-center flex-column align-items-center ">
               <div>
                 <h1
                   className="display-2 my-3 pt-5"
-                  style={{ fontWeight: "bold" }}
+                  style={{ fontWeight: "600"}}
                 >
-                  We are here for you ! <br />
+                  We are here for you! <br />
                 </h1>
                 <p className="main-hero-para ">
                   Start your journey of Mental Health Care.
@@ -35,7 +35,7 @@ const Header = () => {
                   </button></Link>
                   
                   <Link to="/howtouse" href=""><button
-                    className="input-group-button p-2 mx-2"
+                    className="input-group-button btn2  p-2 "
                     style={{ color: "#5041BB", FontWeight: "bold",border:"2px solid #5041BB" ,borderRadius:"4px" }}
                   >
                     How to Use?

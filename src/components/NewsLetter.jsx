@@ -9,7 +9,7 @@ const NewsLetter = () => {
 
         </div>
        
-        <div className="sub">
+        <div className="sub container">
             
             <p>*Enter your Email</p>
             <form action="#">

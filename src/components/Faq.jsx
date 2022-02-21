@@ -7,7 +7,7 @@ import './Faq.css'
 const Faq = () => {
   return (
     <div className="faq container mt-3 mb-3" style={{paddingBottom:"70px"}}>
-        <h1 className="text-center pt-3" style={{fontSize: '32px',fontWeight: 'bold'}}>Some FAQs</h1>
+        <h1 className="text-center faqh1 pt-3" style={{fontSize: '32px',fontWeight: 'bold'}}>Some FAQs</h1>
         <p className="text-center pb-3"style={{fontSize: '16px'}}>Get to Know more About us</p>
         <div className="row">
             <div className="col-md-6 col-12 left text-center">
