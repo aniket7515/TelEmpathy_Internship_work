@@ -13,7 +13,7 @@ import vishnuvardhan from "../components/Images/vishnuvardhan.jfif"
 import swapna from "../components/Images/swapna.jfif"
 import shaila from "../components/Images/shaila.jfif"
 import shreejith from "../components/Images/shreejith.jfif"
-
+import './style.css'
 
 const BookingPage = () => {
   return (

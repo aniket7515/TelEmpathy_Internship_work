@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div>
 
-<nav className="navbar navbar-expand-lg navbar-light bg-light pl-3 pr-3">
+<nav className="navbar  navbar-expand-lg navbar-light bg-light pl-3 pr-3">
   <div className="container-fluid justify-space-between navcont">
     <Link to="/" className="navbar-brand mx-3 my-3" href="#"><img src={Logo} alt="" style={{height:"54px"}}/></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

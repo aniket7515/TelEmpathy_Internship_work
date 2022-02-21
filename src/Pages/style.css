@@ -12,3 +12,22 @@
     width: 100%;
 
 }
+
+ /* Booking Page    */
+
+@media only screen and (max-width:767px){
+    .block-2 img{
+        width: 225px !important;
+    }
+    .block-2 h1{
+        font-weight: 700;
+        font-size:20px;
+        margin-top:12px;
+    }
+    .cards .row {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    
+}
