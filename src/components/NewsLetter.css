@@ -1,6 +1,7 @@
 .newsLetter{
     text-align: center;
-    padding: 102px ;
+    padding-top: 32px ;
+    padding-bottom:70px;
     background-color:#5041bb ;
     /* margin-top:50px; */
 }

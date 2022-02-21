@@ -3,3 +3,11 @@
     font-family: 'Lato', Helvetica, sans-serif;
     font-weight: bold !important;
 }
+
+@media only screen and (min-width: 1400px){
+    .navcont{
+        margin-left: 15% !important;
+        margin-right: 15% !important;
+        
+    }
+}

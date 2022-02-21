@@ -1,12 +1,12 @@
 import React from 'react'
 import Accordion from './Accordion'
 import ReactPlayer from 'react-player'
-
+import './Faq.css'
 
 
 const Faq = () => {
   return (
-    <div className="faq mt-3 mb-3" style={{paddingBottom:"70px"}}>
+    <div className="faq container mt-3 mb-3" style={{paddingBottom:"70px"}}>
         <h1 className="text-center pt-3" style={{fontSize: '32px',fontWeight: 'bold'}}>Some FAQs</h1>
         <p className="text-center pb-3"style={{fontSize: '16px'}}>Get to Know more About us</p>
         <div className="row">

@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div className="footer1">
-        <div className="footer">
+        <div className="footer container">
             <div className="copyright">
                 <p>© 2022 TelEmpathy, All rights reserved.</p>
 
