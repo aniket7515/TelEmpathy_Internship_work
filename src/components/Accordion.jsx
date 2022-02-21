@@ -6,6 +6,7 @@ const Accordion = () => {
     <div className="accordion">
         <div className="c">
   <input type="checkbox" id="faq-1"/>
+  {/* <p></p> */}
   <h1><label htmlFor="faq-1">TelEmpathy's Vision</label></h1>
   <div className="p">
     <p>&nbsp;<strong><em>In India, the topic of Mental Health is widely stigmatized &amp; on top of that, there is a lack of awareness among the general public.</em></strong> Most of the people across the country don't even know whom to reach out to, for seeking counseling/therapy &amp; people who know whom to contact generally face the barrier of high consultation fees.</p>

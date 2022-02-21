@@ -33,7 +33,10 @@ div.c{
   overflow: hidden;
 }
 .accordion h1:hover{
-    border: 2px solid #5041BB;
+  border: 2px solid #5041BB;
+    /* border-top: 2px solid #5041BB;
+    border-right: 2px solid #5041BB;
+    border-left: 2px solid #5041BB; */
 }
 label::before{
   content:"";
@@ -53,8 +56,8 @@ div.p{
   transition:max-height 0.5s;
   background-color: white;
   box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2);
- 
-  
+  /* position: absolute;
+  margin-top: 3vh; */
 }
 
 div.p p {
