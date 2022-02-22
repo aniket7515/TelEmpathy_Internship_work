@@ -51,8 +51,23 @@
 }
 
 .register p{
-    color:#EBEDEF ;
+    color:#ebedef ;
 }
 .register span{
     color: #321FDb;
+}
+
+@media only screen and (max-width: 768px) {
+    .login-box{
+        width: 90%;
+        margin-bottom: 100px !important;
+        padding: 12px;
+    }
+    .login-box .login-content .input{
+        display:flex;
+    }
+    .reg .loginbutton{
+        padding-right:4rem;
+    }
+    
 }
