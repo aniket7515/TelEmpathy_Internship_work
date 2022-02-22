@@ -5,7 +5,7 @@ const InquiryForm = () => {
   return (
     <div>
         <div className="inquiryform mb-5" style={{backgroundColor: '#FECE3A'}}>
-            <div className="inquiry container text-center p-5">
+            <div className="inquiry  text-center p-5">
                 <h1 style={{fontSize:"28px",fontWeight: 'bold'}}>Want to book a Therapy Session?</h1>
                 <hr  style={{width:"100px",margin:"auto", height:"3px"}}/>
 

@@ -14,3 +14,15 @@
   ::-ms-input-placeholder { /* Microsoft Edge */
     color: black;
   }
+
+@media only screen and (max-width: 768px){
+  .inquiryform .input input{
+    width: 100% !important;
+
+  }
+  .inquiryform .inputbox textarea{
+    width: 100% !important;
+
+  }
+  
+}
