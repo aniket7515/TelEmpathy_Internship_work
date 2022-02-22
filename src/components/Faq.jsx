@@ -2,7 +2,7 @@ import React from 'react'
 import Accordion from './Accordion'
 import ReactPlayer from 'react-player'
 import './Faq.css'
-
+import {BrowserRouter,Routes,Route,Link} from 'react-router-dom'
 
 const Faq = () => {
   return (
@@ -13,7 +13,8 @@ const Faq = () => {
             <div className="col-md-6 col-12 left text-center">
             <Accordion/>
             <div>
-                <span className="p-2" style={{backgroundColor:"#DFEAFE",borderRadius:"20px",color:"#4D61FC"}}> <span className="p-1 mx-2" style={{backgroundColor:"#6D61FC",borderRadius:"20px",color:"#fff",fontSize:"12px"}}> NEED HELP? </span>Contact us<i class="bi bi-arrow-right p-2" style={{fontSize:"22px"}}/></span>
+              <Link to="/contact" style={{textDecoration:"none"}}> <span className="p-2" style={{backgroundColor:"#DFEAFE",borderRadius:"20px",color:"#4D61FC",cursor:"pointer"}}> <span className="p-1 mx-2" style={{backgroundColor:"#6D61FC",borderRadius:"20px",color:"#fff",fontSize:"12px"}}> NEED HELP? </span>Contact us<i class="bi bi-arrow-right p-2" style={{fontSize:"22px"}}/></span></Link>
+               
             </div>
 
             </div>

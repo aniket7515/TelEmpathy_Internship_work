@@ -60,7 +60,7 @@
 @media only screen and (max-width: 768px) {
     .login-box{
         width: 90%;
-        margin-bottom: 100px !important;
+        margin-bottom: 270px !important;
         padding: 12px;
     }
     .login-box .login-content .input{

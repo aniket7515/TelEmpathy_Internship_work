@@ -45,6 +45,7 @@ const Header = () => {
                 {/* <div > */}
                 <br />
                 <br />
+                <a href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=+919819481283" style={{textDecoration: 'none'}}>
                 <span
                   className="mt-3 mb-5  p-1 "
                   style={{ backgroundColor: "#DFEAFE", borderRadius: "15px" }}
@@ -60,10 +61,12 @@ const Header = () => {
                   >
                     MESSAGE US 
                   </span>
-                  <span className="p-1" style={{ color: "#627efc" ,fontSize: "12px"}}>
+                  <span className="p-1" style={{ color: "#627efc" ,fontSize: "12px",cursor:"pointer" }}>
                     for getting started<i class="bi bi-arrow-right " style={{fontSize:"16px"}}/>
                   </span>
                 </span>
+                </a>
+                
 
                 {/* </div> */}
                
