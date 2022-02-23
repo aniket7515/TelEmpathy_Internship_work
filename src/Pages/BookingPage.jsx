@@ -450,7 +450,7 @@ const BookingPage = () => {
           <div >
           <BookingCard
             image={shreejith}
-            name="Urveez Kakalia"
+            name="Sreejith Nair"
             Qualification="MSc, MPhil, Ph.D., MBA "
             price="INR500/Session"
             Designation="Counselling Psychologist"
