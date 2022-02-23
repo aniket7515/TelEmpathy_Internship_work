@@ -1,3 +1,28 @@
+
+.Accordionacc:hover{
+  border: 2px solid #5041bb !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,400i,700");
 *, *::after, *::before{
   margin: 0;
@@ -10,8 +35,8 @@ body{
 div.c{
   position: relative;
   margin:1em;
-}
-.accordion input{
+} */
+/* .accordion input{
   position: absolute;
   left: 0;
   top: 0;
@@ -31,26 +56,26 @@ div.c{
   border-radius:4px;
   cursor: pointer;
   overflow: hidden;
-}
-.accordion h1:hover{
+} */
+/* .accordion h1:hover{
   border: 2px solid #5041BB;
     /* border-top: 2px solid #5041BB;
     border-right: 2px solid #5041BB;
     border-left: 2px solid #5041BB; */
-}
-label::before{
+/* } */
+/* label::before{
   content:"";
   display: inline-block;
   border: 15px solid transparent;
   border-left:20px solid white;
-}
-label{
+} */
+/* label{
   cursor: pointer;
   position: relative;
   display: flex;
   align-items: center;
-}
-div.p{
+} */ 
+/* div.p{
   max-height:0px;
   overflow: hidden;
   transition:max-height 0.5s;
@@ -58,8 +83,8 @@ div.p{
   box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2);
   /* position: absolute;
   margin-top: 3vh; */
-}
-
+/* } */
+/* 
 div.p p {
   padding:2em;
 }
@@ -75,7 +100,7 @@ div.p p {
     border-left: 2px solid #5041BB;
     border-right: 2px solid #5041BB;
     border-bottom: 2px solid #5041BB;
-}
-a{
+} */
+/* a{
   color:steelblue;
-}
+/* } */ 
