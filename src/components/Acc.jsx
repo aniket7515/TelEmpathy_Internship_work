@@ -13,7 +13,7 @@ const Acc = () => {
       
       <Accordion className="Accordionacc" style={{ width:" 100%",color:"black",border:"2px solid #D8DDE6",marginBottom:"18px",borderRadius:"4px",padding:"6px 5px"}}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon  style={{color:"#5041BB"}}/>}
           aria-controls="panel1a-content"
         >
           <Typography
@@ -35,7 +35,7 @@ We aim to provide access to online psychologists at an affordable price to the p
       </Accordion>
       <Accordion className="Accordionacc" style={{ width:"100%",color:"black",border:"2px solid #D8DDE6",marginBottom:"18px",borderRadius:"4px",padding:"6px 5px"}}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{color:"#5041BB"}}/>}
           aria-controls="panel1a-content"
         >
           <Typography
@@ -67,7 +67,7 @@ Talk Therapy is a collaborative process & it requires equal efforts from both si
       </Accordion>
       <Accordion className="Accordionacc" style={{ width: "100%",color:"black",border:"2px solid #D8DDE6",marginBottom:"18px" ,borderRadius:"4px",padding:"6px 5px"}}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{color:"#5041BB"}} />}
           aria-controls="panel1a-content"
         >
           <Typography
@@ -96,7 +96,7 @@ It is completely fine & normal to seek therapy as it helps you to get better at 
       </Accordion>
       <Accordion className="Accordionacc" style={{ width: "100%",color:"black",border:"2px solid #D8DDE6",marginBottom:"18px",borderRadius:"4px",padding:"6px 5px" }}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{color:"#5041BB"}} />}
           aria-controls="panel1a-content"
         >
           <Typography
