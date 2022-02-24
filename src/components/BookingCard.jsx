@@ -5,13 +5,13 @@ import {BrowserRouter,Routes,Route,Link} from 'react-router-dom'
 const BookingCard = ({image,name,price,Designation,Qualification,Age,Gender,Experience,KnownLanguage,SessionDuration,MediumOfTherapy}) => {
   return (
     <div>
-        <div className="card1">
+        <div className="card1 my-3">
             <div className="img">
                 <img src={image} alt="" />
             </div>
             <div className="name mb-4">
                 <h4>{name}</h4>
-                <p style={{width:"160px"}}>{price}</p>
+                <p style={{width:"140px"}}>{price}</p>
             </div>
             <div className="info">
                 <p> <strong>Designation:</strong>  {Designation}</p>

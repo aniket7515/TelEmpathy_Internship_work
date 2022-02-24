@@ -372,7 +372,7 @@ const BookingPage = () => {
             MediumOfTherapy="Video,Audio"
           />
           </div>          
-          <div >
+          {/* <div >
           <BookingCard
             image={tejeshwar}
             name="Tejeshwar B R"
@@ -386,7 +386,7 @@ const BookingPage = () => {
             SessionDuration="60 Minutes"
             MediumOfTherapy="Video"
           />
-          </div>          
+          </div>           */}
           <div >
           <BookingCard
             image={jagriti}

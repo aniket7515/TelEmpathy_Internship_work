@@ -29,14 +29,14 @@ const Header = () => {
                 > */}
                   <Link to="/booking" href=""><button
                     className="input-group-button px-2 py-2 mx-0 mt-4 "
-                    style={{ backgroundColor: "#5041BB", color: "white",border:"2px solid #5041BB",borderRadius:"4px" }}
+                    style={{ backgroundColor: "#5041BB", color: "white",border:"2px solid #5041BB",borderRadius:"4px",boxShadow: "2px 2px rgba(0.1,0.1,0.1,0.3)"}}
                   >
                     Get Started
                   </button></Link>
                   
                   <Link to="/howtouse" href=""><button
                     className="input-group-button btn2  p-2 "
-                    style={{ color: "#5041BB", FontWeight: "bold",border:"2px solid #5041BB" ,borderRadius:"4px" }}
+                    style={{ color: "#5041BB", FontWeight: "bold",border:"2px solid #5041BB" ,borderRadius:"4px",boxShadow: "2px 2px rgba(0.1,0.1,0.1,0.3)" }}
                   >
                     How to Use?
                   </button></Link>
