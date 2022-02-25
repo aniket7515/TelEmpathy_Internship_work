@@ -7,7 +7,7 @@ const Header = () => {
     <div >
       <header>
         {/* container main-hero-container */}
-        <section className="header container my-3">
+        <section className="header container my-3 m-auto">
           <div className="row">
             <div className="col-12 col-lg-6 header-left-side d-flex   justify-content-center flex-column align-items-center ">
               <div>
