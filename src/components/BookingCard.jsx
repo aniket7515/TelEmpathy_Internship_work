@@ -2,7 +2,7 @@ import React from 'react'
 import './BookingCard.css'
 import {BrowserRouter,Routes,Route,Link} from 'react-router-dom'
 
-const BookingCard = ({image,name,price,Designation,Qualification,Age,Gender,Experience,KnownLanguage,SessionDuration,MediumOfTherapy}) => {
+const BookingCard = ({image,name,price,Designation,Qualification,Age,Gender,Experience,KnownLanguage,SessionDuration,MediumOfTherapy,link}) => {
   return (
     <div>
         <div className="card1 my-3">
@@ -25,7 +25,8 @@ const BookingCard = ({image,name,price,Designation,Qualification,Age,Gender,Expe
 
                 
             </div>
-            <Link to="/inquiry-page" href="#" className="mt-4" style={{color: "#8f731e"}}>Send Your Message</Link>
+            <a href={link} style={{color:"rgb(176 148 103)"}}>Send Your Message</a>
+            {/* <Link to="/inquiry-page" href="#" className="mt-4" style={{color: "#8f731e"}}>Send Your Message</Link> */}
         </div>
     </div>
   )

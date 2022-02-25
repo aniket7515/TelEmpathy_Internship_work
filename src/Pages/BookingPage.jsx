@@ -325,6 +325,7 @@ const BookingPage = () => {
             KnownLanguage="English"
             SessionDuration="45 Minutes"
             MediumOfTherapy="Video"
+            link="https://docs.google.com/forms/d/15A5emBH3o4-NEn0hsDLyMCQnxZg4R2Zv0pV6JioRMns/edit"
           />
           </div>
           <div >
@@ -340,6 +341,7 @@ const BookingPage = () => {
             KnownLanguage="English,Kannada,Tulu and Hindi"
             SessionDuration="60 Minutes"
             MediumOfTherapy="Video,Audio"
+            link="https://docs.google.com/forms/d/1SflrCcxwQX2X5BZ768heuqn0-456ygPpg9u3ssvA9I8/edit"
           />
           </div>
           <div >
@@ -355,6 +357,7 @@ const BookingPage = () => {
             KnownLanguage="English,Hindi,Telgu"
             SessionDuration="60 Minutes"
             MediumOfTherapy="Video"
+            link="https://docs.google.com/forms/d/1ZjajrSRHEPZpsUEynGk0a1oPRWsMeZjIEelarsX1ubg/edit"
           />
           </div>          
           <div >
@@ -370,6 +373,7 @@ const BookingPage = () => {
             KnownLanguage="English,Gujrati,Kutchi, Hindi and Marathi"
             SessionDuration="45 Minutes"
             MediumOfTherapy="Video,Audio"
+            link="https://docs.google.com/forms/d/1OLX-rMWe3k_XeO2h3q0StU0y1gI0uoKGSf3lif9vglY/edit"
           />
           </div>          
           {/* <div >
@@ -400,6 +404,7 @@ const BookingPage = () => {
             KnownLanguage="English, Hindi, Bengali"
             SessionDuration="60 Minutes"
             MediumOfTherapy="Video"
+            link="https://docs.google.com/forms/d/1Euzy7Fz7gcpYK_fesiKH6k-hQjwz2CYkGaueVunLDJc/edit"
           />
           </div>                   
           <div >
@@ -415,6 +420,7 @@ const BookingPage = () => {
             KnownLanguage="English, Telugu, Hindi"
             SessionDuration="60 Minutes"
             MediumOfTherapy="Video,Audio"
+            link="https://docs.google.com/forms/d/1oN5Mr-PcyWzXJKCfWeRkE-pGi_EWlnrdo7aTRVw52uE/edit"
           />
           </div>          
           <div >
@@ -430,6 +436,7 @@ const BookingPage = () => {
             KnownLanguage="English, Hindi, Telugu"
             SessionDuration="50 Minutes"
             MediumOfTherapy="Video"
+            link="https://docs.google.com/forms/d/1Ed1WewC1nNJz62uL0FrU4o8KVHAJp1rEor8GIqZAuII/edit"
           />
           </div>          
           <div >
@@ -445,6 +452,7 @@ const BookingPage = () => {
             KnownLanguage="English,Hindi"
             SessionDuration="50 Minutes"
             MediumOfTherapy="Video,Audio"
+            link="https://docs.google.com/forms/d/1uukQgYWsIacE74qky4kdvnYruZCE1bo9GnaXM3ggIAY/edit"
           />
           </div>          
           <div >
@@ -460,6 +468,7 @@ const BookingPage = () => {
             KnownLanguage="Hindi,English"
             SessionDuration="60 Minutes"
             MediumOfTherapy="Video,Audio"
+            link="https://docs.google.com/forms/d/1TFkaZwmDQFMAJc6GjYpO_qoWpG71PlBHD4mVQKwIGnI/edit"
           />
           </div>
           </div>
