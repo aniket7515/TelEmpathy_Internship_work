@@ -1,7 +1,21 @@
 
 .header-right-side img{
     max-height: 200px;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
 }
+.bounce-1 {
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-70px); }
+    100% { transform: translateY(0); }
+}
+
+
 /* .input-group-button .btn2 button{
     margin-left:1rem !important;
 

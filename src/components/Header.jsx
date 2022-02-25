@@ -95,7 +95,7 @@ const Header = () => {
               <img
                 src={Img}
                 alt="heroimg"
-                className="img-fluid"
+                className="img-fluid bounce-1"
 
                 // style={{height:"550px"}}
               />
