@@ -16,7 +16,7 @@ const NewsLetter = () => {
             <input type="email" className="input" placeholder="your@email.com"/>
             
            
-            <button>Subscribe <i class="bi bi-arrow-right" style={{fontSize:"16px"}}/></button>
+            <button>Subscribe <i className="bi bi-arrow-right" style={{fontSize:"16px"}}/></button>
 
             </form>
             

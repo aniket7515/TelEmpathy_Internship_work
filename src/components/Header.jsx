@@ -62,7 +62,7 @@ const Header = () => {
                     MESSAGE US 
                   </span>
                   <span className="p-1" style={{ color: "#627efc" ,fontSize: "12px",cursor:"pointer" }}>
-                    for getting started<i class="bi bi-arrow-right " style={{fontSize:"16px"}}/>
+                    for getting started<i className="bi bi-arrow-right " style={{fontSize:"16px"}}/>
                   </span>
                 </span>
                 </a>
