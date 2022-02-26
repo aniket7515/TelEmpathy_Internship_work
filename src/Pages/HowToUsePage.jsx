@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import './style.css'
-import howto from '../components/Images/tinstr-\(1\).png';
+import howto from '../components/Images/howtouse.png';
 
 const HowToUsePage = () => {
   return (

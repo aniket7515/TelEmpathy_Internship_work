@@ -7,6 +7,7 @@ import LoginPage from './Pages/LoginPage';
 import HowToUsePage from './Pages/HowToUsePage';
 import BookingPage from './Pages/BookingPage';
 import Inquirypage from './Pages/Inquirypage';
+import SignInWithGoogle from './Pages/SignInWithGoogle';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
            <Route path="/howtouse" exact  element={<HowToUsePage/>}/>
            <Route path="/booking" exact  element={<BookingPage/>}/>
            <Route path="/inquiry-page" exact  element={<Inquirypage/>}/>
+           <Route path="/signin-with-google" exact  element={<SignInWithGoogle/>}/>
      
          </Routes>
       

@@ -7,7 +7,7 @@ import urveez from "../components/Images/urveez.webp";
 import vimarsha from "../components/Images/vimarsha.webp";
 import ebenezar from "../components/Images/ebenezar.jfif";
 import shika from "../components/Images/shika.jfif";
-import tejeshwar from "../components/Images/tejeshwar.jfif";
+// import tejeshwar from "../components/Images/tejeshwar.jfif";
 import jagriti from "../components/Images/jagriti.jfif";
 import vishnuvardhan from "../components/Images/vishnuvardhan.jfif";
 import swapna from "../components/Images/swapna.jfif";

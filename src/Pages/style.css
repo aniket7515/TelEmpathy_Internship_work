@@ -48,3 +48,66 @@
     }
     
 }
+
+
+
+
+
+
+
+
+/* Sign in with google   */
+.signinwithgoogle{
+    min-height: 100vh;
+    /* border: 2px solid green; */
+    
+    
+}
+.signinwithgoogle .signinbox{
+    margin-top:30vh;
+
+}
+.signin{
+    /* max-height: 100vh; */
+    
+    /* border: 2px solid red; */
+    width: 30%;
+    margin: auto;
+    border-radius:12px;
+    box-shadow: 1px 2px 4px 2px rgba(0, 0, 0, 0.2);
+
+    
+    /* margin: auto; */
+}
+.signinwithgoogle .imglogo img{
+    height: 100px;
+
+}
+.signin .google .googlelogo{
+    height: 42px;
+}
+.signin{
+    padding: 22px 12px;
+}
+.signin .google button{
+    padding: 4px 28px;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius:8px;
+    margin-bottom:12px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    text-align: center;
+
+
+
+}
+
+@media only screen and (max-width: 768px){
+    .signin{
+        width: 98%;
+        padding: 58px 12px;
+    }
+
+
+}
