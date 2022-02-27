@@ -12,10 +12,11 @@ const HomePage = () => {
         <Navbar/>
         <Header/>
         <Faq/>
+        <Association/>
         <NewsLetter/>
         
         
-        <Association/>
+        
         <Footer/>
     </div>
   )

@@ -2,12 +2,12 @@
     text-align: center;
     padding-top: 32px ;
     padding-bottom:70px;
-    background-color:#5041bb ;
+    background-color:white ;
     /* margin-top:50px; */
 }
 .heading h1{
     font-size:4rem;
-    color: #fff;
+    color: black;
     font-weight: 800;
 }
 /* .heading{
@@ -18,12 +18,12 @@
 } */
 .heading p{
     text-align: center;
-    color: #fff;
+    color: black;
     font-size: 14px;
     margin: 0 auto;
 }
 .sub p{
-    color: #fff;
+    color: black;
     font-size:10px;
     text-align: center;
     /* margin: 0 28rem; */
@@ -34,8 +34,8 @@
 .sub .input{
     padding: 14px 102px;
     border-radius: 3px;
-    border: 1.5px solid white;
-    background-color:#8277cd;
+    border: 1.5px solid black;
+    background-color:white;
     color: #fff;
 
 }
@@ -48,6 +48,8 @@
     border-radius: 3px;
     border: none;
     font-size: 12px;
+    background-color: #5041BB;
+    color: #fff;
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: white;
