@@ -15,8 +15,11 @@ const Navbar = () => {
     </button>
     <div className="collapse navbar-collapse  " id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0  mr-auto">
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link to="/" className="nav-link active p-3 mx-3 " aria-current="page" href="#">HomePage</Link>
+        </li> */}
+        <li className="nav-item">
+          <a href="#faqs" className="nav-link active p-3 mx-3">FAQs</a>
         </li>
         <li className="nav-item">
           <Link to="/contact" className="nav-link active p-3 mx-3" href="#">Contact Us</Link>

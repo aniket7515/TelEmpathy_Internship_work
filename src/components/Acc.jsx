@@ -18,7 +18,7 @@ const Acc = () => {
         >
           <Typography
             style={{
-              fontWeight: 20,
+              fontWeight: "bold",
               
             }}
           >
@@ -40,7 +40,7 @@ We aim to provide access to online psychologists at an affordable price to the p
         >
           <Typography
             style={{
-              fontWeight: 10,
+              fontWeight: "bold",
             }}
           >
             What is Therapy?
@@ -72,7 +72,7 @@ Talk Therapy is a collaborative process & it requires equal efforts from both si
         >
           <Typography
             style={{
-              fontWeight: 10,
+              fontWeight: "bold",
             }}
           >
             When to seek Therapy?
@@ -101,10 +101,10 @@ It is completely fine & normal to seek therapy as it helps you to get better at 
         >
           <Typography
             style={{
-              fontWeight: 10,
+              fontWeight: "bold",
             }}
           >
-            Difference between a Psychologist & Psychiatrist?
+            Difference between a Psychologist & Psychiatrist
           </Typography>
         </AccordionSummary>
         <AccordionDetails>

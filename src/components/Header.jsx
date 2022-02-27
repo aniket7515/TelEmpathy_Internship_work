@@ -59,10 +59,10 @@ const Header = () => {
                       fontSize: "12px"
                     }}
                   >
-                    MESSAGE US 
+                    Any Queries? 
                   </span>
-                  <span className="p-1" style={{ color: "#627efc" ,fontSize: "12px",cursor:"pointer" }}>
-                    for getting started<i className="bi bi-arrow-right " style={{fontSize:"16px"}}/>
+                  <span className="p-1" style={{ color: "#627efc" ,fontSize: "12px",cursor:"pointer",fontWeight:"bold" }}>
+                  WhatsApp Us<i className="bi bi-arrow-right " style={{fontSize:"16px"}}/>
                   </span>
                 </span>
                 </a>

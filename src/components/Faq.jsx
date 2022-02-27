@@ -6,7 +6,7 @@ import {BrowserRouter,Routes,Route,Link} from 'react-router-dom'
 
 const Faq = () => {
   return (
-    <div className="faq container mt-5 mb-3" style={{paddingBottom:"70px"}}>
+    <div id="faqs" className="faq container mt-5 mb-3" style={{paddingBottom:"70px"}}>
       <hr />
         <h1 className="text-center faqh1 pt-3" style={{fontSize: '32px',fontWeight: 'bold'}}>Some FAQs</h1>
         <p className="text-center pb-3"style={{fontSize: '16px'}}>Get to Know more About us</p>

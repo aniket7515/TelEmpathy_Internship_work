@@ -8,8 +8,8 @@ const Association = () => {
         <div className="association text-center mt-5">
         <h1 className="text-center">Our Association</h1>
         <hr className="line1" />
-        <img src={simb} alt="" />
-
+        <a href="https://drive.google.com/file/d/1LXieoRexqso7JdqQPcNQe7D8kzl2nEGE/view"><img src={simb} alt="" /></a>
+        
         </div>
         
     </div>
