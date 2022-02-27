@@ -5,7 +5,8 @@ import google from '../components/Images/google1.png'
 
 const SignInWithGoogle = () => {
   return (
-    <div className="signinwithgoogle">
+      <div style={{backgroundColor: '#E9EBE2'}}>
+          <div className="signinwithgoogle">
         <div className="signinbox">
             <div className="signin text-center">
                 <div className="imglogo">
@@ -20,6 +21,9 @@ const SignInWithGoogle = () => {
         
         
     </div>
+
+      </div>
+    
   )
 }
 
