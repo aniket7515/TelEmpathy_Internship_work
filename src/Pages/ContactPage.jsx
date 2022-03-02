@@ -11,6 +11,7 @@ const ContactPage = () => {
         <ContactUsCard/>
 
 
+
         <Footer/>
     </div>
   )
