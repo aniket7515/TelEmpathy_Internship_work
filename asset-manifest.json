@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/TelEmpathy_Internship_work/static/css/main.7474eaeb.css",
+    "main.js": "/TelEmpathy_Internship_work/static/js/main.e61ad5e2.js",
+    "static/js/787.d14f8e06.chunk.js": "/TelEmpathy_Internship_work/static/js/787.d14f8e06.chunk.js",
+    "static/media/howtouse.png": "/TelEmpathy_Internship_work/static/media/howtouse.3e38bd32eeca1424b77c.png",
+    "static/media/urveez.webp": "/TelEmpathy_Internship_work/static/media/urveez.8e3e7ca7efe8258650f7.webp",
+    "static/media/symbol.png": "/TelEmpathy_Internship_work/static/media/symbol.e5f3c6b12911e12addf2.png",
+    "static/media/happy.png": "/TelEmpathy_Internship_work/static/media/happy.893c14a2e9de4bd684f0.png",
+    "static/media/google1.png": "/TelEmpathy_Internship_work/static/media/google1.d0255db7d660195c2939.png",
+    "static/media/shreejith.jfif": "/TelEmpathy_Internship_work/static/media/shreejith.b2cc7653bfee4b9685bc.jfif",
+    "static/media/shaila.jfif": "/TelEmpathy_Internship_work/static/media/shaila.a4b71a8be8fc6d9fbdd1.jfif",
+    "static/media/Logo_TelEmpathy.png": "/TelEmpathy_Internship_work/static/media/Logo_TelEmpathy.245528ad65e542f68535.png",
+    "static/media/jagriti.jfif": "/TelEmpathy_Internship_work/static/media/jagriti.ac223c375a9b96ccdaef.jfif",
+    "static/media/swapna.jfif": "/TelEmpathy_Internship_work/static/media/swapna.06d8a9ceddbe0103233e.jfif",
+    "static/media/shika.jfif": "/TelEmpathy_Internship_work/static/media/shika.10f53d14f17dfbf9158e.jfif",
+    "static/media/ebenezar.jfif": "/TelEmpathy_Internship_work/static/media/ebenezar.b789d331106b73df4755.jfif",
+    "static/media/vimarsha.webp": "/TelEmpathy_Internship_work/static/media/vimarsha.fdad1d069a1e24933649.webp",
+    "static/media/vishnuvardhan.jfif": "/TelEmpathy_Internship_work/static/media/vishnuvardhan.350b7583e0a1d32b8076.jfif",
+    "index.html": "/TelEmpathy_Internship_work/index.html",
+    "main.7474eaeb.css.map": "/TelEmpathy_Internship_work/static/css/main.7474eaeb.css.map",
+    "main.e61ad5e2.js.map": "/TelEmpathy_Internship_work/static/js/main.e61ad5e2.js.map",
+    "787.d14f8e06.chunk.js.map": "/TelEmpathy_Internship_work/static/js/787.d14f8e06.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7474eaeb.css",
+    "static/js/main.e61ad5e2.js"
+  ]
+}
